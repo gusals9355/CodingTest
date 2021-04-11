@@ -2,6 +2,7 @@ package practice;
 
 import java.util.ArrayList;
 
+//https://programmers.co.kr/learn/courses/30/lessons/12906
 public class NotSameNumber {
 
 	public static void main(String[] args) {

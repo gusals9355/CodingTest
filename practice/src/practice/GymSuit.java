@@ -1,5 +1,6 @@
 package practice;
 
+//https://programmers.co.kr/learn/courses/30/lessons/42862
 public class GymSuit {
 
 	public static void main(String[] args) {

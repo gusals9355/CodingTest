@@ -1,5 +1,6 @@
 package practice;
 
+//https://programmers.co.kr/learn/courses/30/lessons/12921
 public class FindDecimal {
 
 	public static void main(String[] args) {

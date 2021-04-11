@@ -1,5 +1,6 @@
 package practice;
 
+//https://programmers.co.kr/learn/courses/30/lessons/12954
 public class xIntervalNNumber {
 
 	public static void main(String[] args) {

@@ -2,6 +2,7 @@ package practice;
 
 import java.util.HashMap;
 
+//https://programmers.co.kr/learn/courses/30/lessons/42576
 public class MaratonPlayer {
 	public static void main(String[] args) {
 		String[] participant = {"mislav", "stanko", "mislav", "ana"}; //참여자
