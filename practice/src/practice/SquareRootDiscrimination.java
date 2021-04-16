@@ -4,15 +4,18 @@ package practice;
 public class SquareRootDiscrimination {
 
 	public static void main(String[] args) {
-		long n = 3;
+		long n = 1;
 		System.out.println(solution(n));
 	}
 	
     public static long solution(long n) {
         long cnt=2;
-        while(true) {
-        	if(n <4) return cnt=-1;
-        	
+        long m = (long)Math.sqrt(n);
+        
+        if(n==1) return 4;
+        if(n <4) return -1;
+        
+        while(cnt <= m) {
         	if(cnt*cnt == n) { //제곱근이라면
         		cnt++;
         		return cnt*=cnt;
@@ -20,6 +23,8 @@ public class SquareRootDiscrimination {
         		cnt++;
         	}
         }
+        
+        return -1;
     }
 
 }
